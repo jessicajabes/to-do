@@ -1,0 +1,61 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px auto;
+    background-color:black;
+    color:aliceblue;    
+    max-width: 400px;
+
+}
+
+li{
+    display: flex;
+    align-items:stretch;    
+    padding:5px 15px;
+    gap:5px;
+    border-bottom: 1px solid #333;
+}
+
+
+#form-habito{
+    display: flex;
+    align-items:stretch;  
+    gap: 5px;
+}
+
+#input-habito{
+    background-color:black;
+    color:aliceblue;
+    border: 1px solid;
+    padding: 5px;
+}
+
+#btn-add-habito{
+    background-color:chartreuse;
+    border-radius: 5px;
+    cursor:pointer;
+
+}
+
+.nome-habito {
+    flex:1;
+}
+
+.btn-feito-desfeito{
+    background-color:cadetblue;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.btn-remover{
+   background-color:brown;
+   color:aliceblue;
+   border-radius:5px;
+   cursor:pointer;
+}
+
+.div-dias{
+    color: #aaa;
+    font-size: 0.8em;
+}
+
+
